@@ -159,3 +159,31 @@
         // else {alert("sorry ,you'll have to wait, or go get a snack.")}
 
 // 
+
+// 19. Use a switch statement to rewrite the following JavaScript 
+// code. Prompt the user for the number of a month rather than 
+// setting it to 8:
+
+// var number_Month = +prompt('Enter number of month(between 1 to 12)');
+// if (number_Month === 1){alert('January');}
+// else if(number_Month === 2){alert('February');}
+// else if (number_Month === 3){alert('March');}
+// else if (number_Month === 4){alert('April');}
+// else if (number_Month === 5){alert('May');}
+// else if (number_Month === 6){alert('June');}
+// else if(number_Month === 7){alert('July');}
+// else if(number_Month === 8){alert('August');}
+// else if (number_Month === 9){alert('September');}
+// else if (number_Month === 10){alert('October');}
+// else if (number_Month === 11){alert('November');}
+// else if (number_Month === 12){alert('December');}
+// else{alert('Invalid entry');} 
+
+// 20. Use a conditional (ternary) operator for this exercise: 
+// If the variable age is a value below 18, the value of the variable 
+// voteable should be "Too young",  
+// otherwise the value of voteable should be "Old enough".
+                // var age = prompt('Enter age');
+                // if (age < 18){alert('Too young');}
+                // else if(age >= 18) {alert('Old enough');}
+                // else{alert('Invalid entry');}
