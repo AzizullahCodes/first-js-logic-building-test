@@ -3,26 +3,26 @@
 // divisible by 3 or else show a message “Number is not divisible
 // by 3”.
 
-        //  var enter_number = +prompt('Enter any number');
-        //  var result = enter_number % 3;
-        // if (result === 0){alert('Number is divisible by 3');}
-        //  else{alert('No is not divisible by 3');}
+          var enter_number = +prompt('Enter any number');
+          var result = enter_number % 3;
+         if (result === 0){alert('Number is divisible by 3');}
+          else{alert('No is not divisible by 3');}
 
         // 2. Write a program that checks whether the given input is an even 
 // number or an odd number?
-        //  var enter_number = +prompt('Enter number(1 to unlimited)');
-        //  var result = enter_number % 2;
-        //  if(result === 0){alert('The number you entered is an even number');}
+          var enter_number = +prompt('Enter number(1 to unlimited)');
+          var result = enter_number % 2;
+          if(result === 0){alert('The number you entered is an even number');}
 
-        //  else {alert('The number you entered is an odd number');}
+          else {alert('The number you entered is an odd number');}
 // 3. Write an if/else statement with the following condition:
 // If the variable age is greater than 18, output "Old enough", 
 // otherwise output "Too young"
 
 
-//  var age = prompt('Enter your age');
-//  if (age > 18){alert('Old enough');}
-//  else{alert('Too young');}
+  var age = prompt('Enter your age');
+  if (age > 18){alert('Old enough');}
+ else{alert('Too young');}
 
 // 4. Write a program that prompts the user for their name, and then 
 // displays a special greeting to that person if their name is the 
@@ -44,18 +44,18 @@
         //  if (result === 0){alert('Number is divisible by 3');}
         //  else {alert('Number is not divisible by 3');}
 
-// 7. Write a program to create a calculator for +, -, *, /, % using 
-// switch case statements. (number1, number2 and operator will 
-// be input)
-        // var number1 = +prompt('Enter number 1');
-        // var number2 = +prompt('Enter number 2');
-        // var operator = prompt('Enter one operator(+,-,*,/,%)');
-        // if (operator === '+'){alert(number1 + number2);}
-        // else if (operator === '-'){alert(number1 - number2);}
-        // else if (operator === '*'){alert(number1 * number2);}
-        // else if ( operator === '/'){alert(number1  / number2);}
-        // else if (operator == '%'){alert(number1 % number2);}
-        // else{alert('Invalid entery');}
+//  7. Write a program to create a calculator for +, -, *, /, % using 
+//  switch case statements. (number1, number2 and operator will 
+//  be input)
+         var number1 = +prompt('Enter number 1');
+         var number2 = +prompt('Enter number 2');
+         var operator = prompt('Enter one operator(+,-,*,/,%)');
+         if (operator === '+'){alert(number1 + number2);}
+         else if (operator === '-'){alert(number1 - number2);}
+         else if (operator === '*'){alert(number1 * number2);}
+         else if ( operator === '/'){alert(number1  / number2);}
+         else if (operator == '%'){alert(number1 % number2);}
+         else{alert('Invalid entery');}
 
 //         8. Write a program that takes time as input from user in 24 hours 
 // clock format like: 1900 = 7pm. Implement the following case 
